@@ -1,0 +1,57 @@
+/*container*/
+/* display, flex-direction, justify content*/
+
+.nav{
+	background-color: hotpink;
+
+}
+
+/*background-image: url("img/headerback.jpg");background size */
+
+
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+html,h1,h2,h3,h4,h5,h6,a{
+	font-family: "Raleway";
+}
+
+.profile{
+	height: 500px;
+	background-image: url("images/headerback.jpg");
+	background-position: center; /* Center the image */
+	background-repeat: no-repeat; /* Do not repeat the image */
+	background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+section {
+
+	border:  2px solid red;
+	height:  400px;
+	padding: 2px;
+	display:  flex;
+	flex direction: : columm;
+	justify-content: : space-between;
+}
+
+div{
+	border:  2px solid black;
+	background-color: ;
+	color:  black;
+	font size:  30 px;
+
+	display:  flex;
+	flex-direction:  row;
+	justify-content: : center;
+	align-items 
+
+	.top-bottom {
+		height:  70px; 
+	}
+}
+.middle { 
+	height: 120px;
+	width:  50%;
+	align-self : center; 
+} 
+
+
